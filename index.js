@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  BOT for Google
-// @author       Чуркин Александр
+// @author       Alexander Churkin
 // @match        https://www.google.ru/
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
@@ -29,5 +29,5 @@ if (btnK !== undefined) {
 }
 
 function getRandom(min, max) {
-	return Math.floor(Math.random() * (max - min) + min)
+	return Math.floor(Math.random() * (max - min) + min);
 }
